@@ -63,7 +63,7 @@ def insert_sort(arr: list) -> list:
     return arr
 
 def merge_sort(arr):
-    if len(arr) > 1:
+    if len(arr) > 1:  # separating of the main array
         left_arr = arr[:len(arr)//2]
         right_arr = arr[len(arr)//2:]
 
@@ -96,6 +96,10 @@ def merge_sort(arr):
             merge_arr_indx += 1
 
     return arr
+
+# TODO: make quicksort https://www.youtube.com/watch?v=RFyLsF9y83c
+def quicksort(arr):
+    pass
 
 def benchmark(s_time: list = [10, 100, 1000, 10000]) -> None:
     insert_time = []

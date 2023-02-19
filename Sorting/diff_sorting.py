@@ -97,10 +97,6 @@ def merge_sort(arr):
 
     return arr
 
-# TODO: make quicksort https://www.youtube.com/watch?v=RFyLsF9y83c
-def quicksort(arr):
-    pass
-
 def benchmark(s_time: list = [10, 100, 1000, 10000]) -> None:
     insert_time = []
     bubble_time = []
